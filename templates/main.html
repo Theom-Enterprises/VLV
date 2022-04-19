@@ -24,17 +24,10 @@
 <f:for each="{hotels}" as="hotel">
     <div class="card" style="width: 18rem;">
         <div class="card-body">
-            <h5 class="card-title">Hotel {{ hotel.name }}</h5>
-            <h6 class="card-subtitle mb-2 text-muted">{{ hotel.businessHours }}</h6>
-            <p class="card-text">Dieses Hotel hat besondere Sehenswürdigkeiten wie z.B. {{ hotel.sight }}.</p>
-        </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Hotel { hotel.name }</h5>
-            <h6 class="card-subtitle mb-2 text-muted">{ hotel.openingTimes }</h6>
-            <p class="card-text">Dieses {hotel.stars} Sterne Hotel hat besondere Sehenswürdigkeiten wie z.B. {{
-                hotel.sehenswuerdigkeiten }}.</p>
+            <h5 class="card-title">Hotel {hotel.name}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{hotel.openingTimes}</h6>
+            <p class="card-text">Dieses {hotel.stars} Sterne Hotel hat besondere Sehenswürdigkeiten wie z.B.
+                {hotel.sehenswuerdigkeiten}.</p>
         </div>
     </div>
 </f:for>
