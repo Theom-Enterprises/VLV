@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de"
+      xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viewa Las Vegas</title>
+</head>
+<body>
+<h1> Wilkommen bei Las Vegas Hotels</h1>
+
+<f:for each="{hotels}" as="hotel">
+    <h2> Hotel {hotel.name}</h2>
+    <p>
+        Dieses {hotel.stars} Sterne Hotel hat besondere Sehenwürdigkeiten wie z.B. {hotel.sehenswuerdigkeiten}. <br>
+        Es hat immer von {hotel.openingTimes} geöffnet.
+    </p>
+
+</f:for>
+</body>
+</html>

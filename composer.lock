@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f06794f1fc25fcb3a10d3b3da4c5748c",
+    "content-hash": "c15ea593855a234babeb6bc4c6518a8f",
     "packages": [
         {
             "name": "typo3fluid/fluid",
@@ -50,7 +50,49 @@
             "time": "2021-11-12T10:06:45+00:00"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "typo3/fluid-schema-generator",
+            "version": "2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3/Fluid.SchemaGenerator.git",
+                "reference": "0fb3feca9c9412a0b7fe76e5e4b72059dc07d1bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3/Fluid.SchemaGenerator/zipball/0fb3feca9c9412a0b7fe76e5e4b72059dc07d1bc",
+                "reference": "0fb3feca9c9412a0b7fe76e5e4b72059dc07d1bc",
+                "shasum": ""
+            },
+            "require": {
+                "typo3fluid/fluid": "^1.0|^2.0"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^5.7"
+            },
+            "bin": [
+                "bin/generateschema"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\FluidSchemaGenerator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Generates XSD schemas for packages containing Fluid ViewHelpers",
+            "support": {
+                "issues": "https://github.com/TYPO3/Fluid.SchemaGenerator/issues",
+                "source": "https://github.com/TYPO3/Fluid.SchemaGenerator/tree/master"
+            },
+            "time": "2018-10-01T12:01:20+00:00"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
