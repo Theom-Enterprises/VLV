@@ -1,8 +1,8 @@
 <?php
 
-use TYPO3Fluid\Fluid\View\TemplateView;
-
 require_once('vendor/autoload.php');
+
+use TYPO3Fluid\Fluid\View\TemplateView;
 
 use Theom\Vlv\Hotel;
 
