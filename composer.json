@@ -1,0 +1,26 @@
+{
+    "name": "theom/vlv",
+    "description": "WEBT M6 Viewa Las Vegas",
+    "autoload": {
+        "psr-4": {
+            "Theom\\Vlv\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexander Sarka",
+            "email": "alexander.sarka@htl.rennweg.at"
+        },
+        {
+            "name": "Alejandro Lozada",
+            "email": "alejandro.lozada_quezada@htl.rennweg.at"
+        },
+        {
+            "name": "Omar Faid",
+            "email": "omar.faid@htl.rennweg.at"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.3"
+    }
+}
