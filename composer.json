@@ -1,0 +1,15 @@
+{
+    "name": "theom/vlv",
+    "autoload": {
+        "psr-4": {
+            "Theom\\Vlv\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexander Sarka",
+            "email": "alexander.sarka@htl.rennweg.at"
+        }
+    ],
+    "require": {}
+}
